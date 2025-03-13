@@ -5,17 +5,105 @@
     <title>Brawl stars</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
-<body>
-    <div class="d-flex flex-column h-100">
-        <header class="w-100 border-bottom border-5 border-black">
-        </header>
-        <main>
-            <div class="spotlight">
-                Hola
+<body class="brawl-font">
+    <header class="w-100 border-bottom border-5 border-black position-relative">
+        <img src="assets/brawl-stars-logo.png" alt="Brawl Stars" class="position-absolute start-50 translate-middle logo-image">
+    </header>
+    <main class="spotlight-blue z-3">
+        <div class="moving-background skull-moving-background"></div>
+        <div class="main-content">
+            <div class="d-flex flex-column gap-1 h-100 justify-content-start">
+                <div class="name-container">
+                    <h1 class="name-text z-3 text-white text-center text-shadow-lg text-border-sm">
+                        ÁLVARO
+                    </h1>
+                    <div class="inverted-shoe-shape h-100 w-100 shape-container text-white text-shadow text-border-sm font-bold">
+                        <i class="bi bi-heart-fill"></i>
+                        <span class="">MY BRO</span>
+                    </div>
+
+                    <div class="w-100 shape-border h-100 inverted-shoe-shape">
+                    </div>
+                </div>
+
+                <p class="text-shadow text-border-sm text-white p-4">
+                    Álvaro es un chico de 12 años, con el pelo castaño y ojos marrones. Le gustan los deportes, sobre todo si es en casa, además de la lectura. Siempre está sonriente, refleja su personalidad pícara, amable, divertida y enérgica. Pero que no te engañe su sonrisa, o serás víctima de una de sus travesuras.
+                </p>
             </div>
-        </main>
-    </div>
+
+            <div class="alvaro-image-container">
+                <img src="assets/Alvaro-idle.png" alt="Alvaro" class="alvaro-image">
+            </div>
+
+            <div class="right-side">
+                <div class="abilities-container">
+                    <img src="assets/belle_gadget_02.png" tabindex="0" alt="Gadget" class="gadget-image">
+                    <img src="assets/belle_starpower_01.png" tabindex="0" alt="Star Power" class="star-power-image">
+                </div>
+
+                <div class="force-container">
+                    <div class="force-bar-container">
+                        <div class="force-level text-border-sm text-shadow text-white">
+                            11
+                        </div>
+
+                        <span class="force-text text-border-sm text-shadow text-white">
+                            FUERZA
+                        </span>
+                        <div class="force-bar">
+                            <div class="min-bar parallelogram_shape-md"></div>
+                            <div class="min-bar parallelogram_shape-md"></div>
+                            <div class="min-bar parallelogram_shape-md"></div>
+                            <div class="min-bar parallelogram_shape-md"></div>
+                            <div class="min-bar parallelogram_shape-md"></div>
+                            <div class="min-bar parallelogram_shape-md"></div>
+                            <div class="min-bar parallelogram_shape-md"></div>
+                            <div class="min-bar parallelogram_shape-md"></div>
+                            <div class="min-bar parallelogram_shape-md"></div>
+                            <div class="min-bar parallelogram_shape-md"></div>
+                            <div class="min-bar parallelogram_shape-md"></div>
+                        </div>
+                    </div>
+
+                    <div class="stats-container">
+                        <div class="stat-element">
+                            <div class="stat-icon bg-green-600 text-white">
+                                <i class="bi bi-heart-fill text-shadow"></i>
+                            </div>
+
+                            <span class="text-shadow text-border-sm stat-title text-green-400">SALUD</span>
+                            <div class="stat-value text-white text-shadow text-border-sm">5200</div>
+                        </div>
+
+                        <div class="stat-element">
+                            <div class="stat-icon bg-red-600 text-white">
+                                <i class="bi bi-lightning-charge-fill text-shadow"></i>
+                            </div>
+
+                            <span class="text-shadow text-border-sm stat-title text-red-400">DAÑO</span>
+                            <div class="stat-value text-white text-shadow text-border-sm">2080</div>
+                        </div>
+
+                        <div class="stat-element">
+                            <div class="stat-icon bg-yellow-600 text-white">
+                                <i class="bi bi-star-fill text-shadow"></i>
+                            </div>
+
+                            <span class="text-shadow text-border-sm stat-title text-yellow-400">SUPER</span>
+                            <div class="stat-value text-white text-shadow text-border-sm">Avistamiento</div>
+                        </div>
+                    </div>
+
+                    <span class="max-text">
+                        ¡NIVEL MÁXIMO!
+                    </span>
+                </div>
+            </div>
+        </div>
+    </main>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
