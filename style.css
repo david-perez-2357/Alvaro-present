@@ -64,7 +64,7 @@
 }
 
 .skull-moving-background {
-    background-image: url('/assets/brawl-stars-skull.png');
+    background-image: url('assets/brawl-stars-skull.png');
     animation: scrollBackground 80s linear infinite;
     background-size: 15%;
     opacity: 0.05;
@@ -206,7 +206,7 @@ main {
 }
 
 .alvaro-image:hover {
-    content: url('/assets/Alvaro-pose.png');
+    content: url('assets/Alvaro-pose.png');
 }
 
 .right-side {
