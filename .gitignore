@@ -1,6 +1,8 @@
 
 # Archivos de IntelliJ IDEA
 .idea/
+.idea/*
+.idea/**/*
 *.iml
 workspace.xml
 
